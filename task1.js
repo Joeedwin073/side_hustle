@@ -2,7 +2,6 @@ function salary (workhours, overtime) {
     // if statement to ensure that the workhours is not more than 4
     if (workhours > 4){
         let over = workhours - 4
-        workhours = 4
         overtime += over 
         console.log(workhours, overtime)
     }
