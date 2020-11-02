@@ -5,6 +5,7 @@ function salary (workhours, overtime) {
         overtime += over 
         console.log(workhours, overtime)
     }
+    workhours += overtime
     // calculation of the daily income
     workrate = 1000 * workhours
     overtimeRate = 200 * overtime
